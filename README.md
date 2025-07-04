@@ -1,12 +1,94 @@
-# React + Vite
+🌦️ Modern React Weather App
+A beautiful, responsive, and feature-rich weather application built with React, Context API, Axios, Recharts, and OpenWeatherMap API.
+It features dark/light mode, animated UI elements, a 5-day forecast, hourly predictions, and smooth chart visualizations.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+🔍 Real-time weather search by city
 
-Currently, two official plugins are available:
+🌙 Dark and Light Mode toggle
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+☁️ Animated cloud backgrounds
 
-## Expanding the ESLint configuration
+🌡️ Displays:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Current Temperature
+
+Feels Like Temperature
+
+Humidity
+
+Wind Speed
+
+⏰ Hourly Forecast with weather icons
+
+📅 5-Day Forecast with temperature trend chart
+
+📈 Interactive charts using Recharts
+
+✨ Glassmorphism & Gradient UI Design
+
+🔄 Fully Responsive
+
+
+
+🛠️ Tech Stack
+React (Vite)
+
+Context API
+
+Axios (API calls)
+
+Recharts (Charts)
+
+CSS3 (Custom gradients, glassmorphism, animations)
+
+OpenWeatherMap API (Live data)
+
+📂 Project Setup
+bash
+Copy
+Edit
+# Clone the repository
+git clone https://github.com/your-username/react-weather-app.git
+
+# Navigate to the project
+cd react-weather-app
+
+# Install dependencies
+npm install
+
+# Run the app
+npm run dev
+🔑 API Key
+This project uses OpenWeatherMap API.
+👉 Get your free API key here.
+
+Make sure to replace your API key in the code:
+
+javascript
+Copy
+Edit
+const API_KEY = 'YOUR_API_KEY';
+📁 Folder Structure
+css
+Copy
+Edit
+src/
+├── components/
+│   └── Weather.jsx
+├── assets/
+│   └── (images, icons)
+├── App.jsx
+├── main.jsx
+├── weather.css
+✅ To-Do (Extend Features)
+Add geolocation-based weather reports
+
+Implement weekly and monthly weather summaries
+
+Add loading spinners and error animations
+
+Improve accessibility (ARIA labels)
+
+📜 License
+This project is open-source and free to use.
