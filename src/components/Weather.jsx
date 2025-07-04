@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './weather.css';
 import { LineChart, Line, XAxis, Tooltip, ResponsiveContainer } from 'recharts';
-import 'dotenv/config'
 
 const Weather = () => {
   const [darkMode, setDarkMode] = useState(false);  // Start with dark mode
@@ -12,7 +11,7 @@ const Weather = () => {
   const [loc, setLoc] = useState('');
   const [status, setStatus] = useState('');
 
-  const API_KEY = process.env.API_KEY;
+  const API_KEY = import.meta.env.VITE_API_KEY;
 
   const getWeather = async (city) => {
     try {
